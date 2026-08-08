@@ -1,0 +1,27 @@
+Cognifyz Data Analysis Internship — Key Findings
+
+Dataset: 9,551 rows, 21 columns
+
+Level 1
+- Top cuisines: North Indian 3,960 (41.50%); Chinese 2,735 (28.66%); Fast Food 1,986 (20.81%).
+- City with most restaurants: New Delhi (5,473).
+- Highest-rated city in the notebook result: Inner City (4.90).
+- Price range 1: 4,444 restaurants (46.53%).
+- Online delivery: Yes 2,451 (25.66%); No 7,100 (74.34%).
+- Average rating: delivery Yes 3.2488; delivery No 2.4653.
+
+Level 2
+- Most common rating range: 3–4 (4,388 restaurants).
+- Average votes: 156.91.
+- Cuisine-count vs average-rating correlation in the analyzed top-20 summary: -0.169.
+- Geographic concentration: New Delhi 5,473; Gurgaon 1,118; Noida 1,080.
+- Repeated restaurant names treated as chains: 734.
+- Largest chain by outlets in the result: Cafe Coffee Day (83).
+
+Level 3
+- No free-form customer review text exists in the provided dataset; review-text NLP was therefore not claimed.
+- Highest-voted restaurant: Toit (10,934 votes).
+- Votes vs rating correlation: 0.3137 (moderate positive correlation).
+- Online delivery by price range: 15.77%, 41.31%, 29.19%, 9.04% for ranges 1–4.
+- Table booking by price range: 0.02%, 7.68%, 45.74%, 46.76% for ranges 1–4.
+- Range 4 vs range 1: online delivery -6.73 percentage points; table booking +46.74 percentage points.
